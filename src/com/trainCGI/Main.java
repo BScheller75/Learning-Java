@@ -10,10 +10,10 @@ public class Main {
                 "Bks5361");
         //Display text asking user what they want to do
         myBank.showMenu();
-
     }
 
      static class BankAccount{
+        //Initialized customer info
         int balance;
         int previousTransaction;
         String customerName;
